@@ -41,6 +41,24 @@ h6, .h6 {
   letter-spacing: -1px;
 }
 
+.navbar-default .navbar-brand {
+  color: #555;
+}
+
+.navbar-default .navbar-nav>li:first-child>a {
+  color: #ea5f51;
+}
+.navbar-default .navbar-nav>li:nth-child(2)>a {
+  color: #2ecc71;
+}
+
+.navbar-default .navbar-nav>li:nth-child(3)>a {
+  color: #3498db;
+}
+.navbar-default .navbar-nav>li:nth-child(4)>a {
+  color: #f39c12;
+}
+
  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: #f8f8f8;
  }
