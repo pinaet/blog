@@ -93,9 +93,48 @@ h2 {
 
 .blog-main {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 
+
+/*
+ * Blog side bar
+ */
+#subscribe-box {
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+#subscribe-box h4 {
+  font-family: 'Roboto Condensed';
+  font-size: 20px;
+  color: #666;
+  text-align: justify;
+}
+
+#subscribe-box p {
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+}
+
+#subscribe-box .form-group {
+  padding-top: 15px;
+}
+
+#subscribe-box .btn-warning {
+  background-color: #f39c12;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#subscribe-box .btn-warning:hover {
+  background-color: #f0ad4e;
+}
+
+.blog-sidebar {
+  padding-left: 30px;
+}
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
@@ -105,6 +144,7 @@ h2 {
   padding: 15px;
   background-color: #f5f5f5;
   border-radius: 4px;
+  border: 5px dashed #2ecc71;
 }
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
@@ -173,6 +213,10 @@ h2.blog-post-title a:hover {
   font-weight: 200;
 }
 
+.blog-post-meta a.btn-danger:hover {
+  background-color: #d9534f;
+}
+
 
 /*
  * Footer
@@ -187,4 +231,11 @@ h2.blog-post-title a:hover {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+/*
+ * Site-wide styling
+ */
+.center {
+  text-align: center;
 }
