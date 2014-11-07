@@ -20,6 +20,14 @@ h6, .h6 {
   color: #333;
 }
 
+h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #555;
+}
+
 
 /*
  * Override Bootstrap's default container.
@@ -80,26 +88,6 @@ h6, .h6 {
 
 
 /*
- * Blog name and description
- */
-
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
-}
-.blog-description {
-  font-size: 20px;
-  color: #999;
-}
-
-
-/*
  * Main column and sidebar layout
  */
 
@@ -142,16 +130,47 @@ h6, .h6 {
  * Blog posts
  */
 
-.blog-post {
-  margin-bottom: 60px;
+div.blog-main img {
+  width: 100%;
+  margin-bottom: 20px;
 }
+
+.blog-post {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
 .blog-post-title {
   margin-bottom: 5px;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
 }
+
+h2.blog-post-title a {
+  color: #555;
+}
+
+h2.blog-post-title a:hover {
+  color: #2a6496;
+}
+
 .blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
+  margin-bottom: 28px;
+  color: #888;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+.blog-post-meta a.btn-danger {
+  background-color: #e74c3c;
+  padding: 3px 5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-weight: 200;
 }
 
 
